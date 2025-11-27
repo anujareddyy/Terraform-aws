@@ -1,0 +1,32 @@
+🚀 Day 1 of My 30 Days of AWS + Terraform Journey
+
+What is Infrastrucre as code ?
+- Code that provide or provising Infrastrucre is known as Infrastrucre as code .
+
+tools for Iac
+- Terraform - Multicloud King
+- AWS - cloudformation, AWS CDK (cloud development kit)
+- GCP - Cloud Deployment Manager
+- Azure - ARM templete | Bicep
+
+why we need Iac ?
+-Avoid hunman error
+-with its faster 
+-consistency across env -> Without IaC: Dev, QA, and Prod environments may not match.
+With IaC: All environments are identical, because they come from the same code.
+-Infrastrucre become version control by pushing code in git
+- Cost Optimisation -> have idea how much infra is created and using
+- Easy to scale or replicate
+- easy for automation / CICD
+- Disaster recovery become easy
+
+how Terraform help?
+along with above IaC benifits it is widely used in industry.
+- support Multicloud like AWS,GCP,Azure even on premisis cloud also
+-use simple language to write code HCL 
+- Track changes with state file
+-Dependency Management -> Terraform automatically understands resource order.
+- easy to destroy -> which save cost
+
+How Terraform works?
+as per diagram
