@@ -1,1 +1,9 @@
 Terraform AWS Provider - https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+
+Git Commands
+git pull ->>
+git add .  ->> add git files
+git commit -m "message" ->> 
+git push  ->> pushes code to git hub
+git branch  -->> check available branch
+git branch -d name_of_branch ->> delete branch
