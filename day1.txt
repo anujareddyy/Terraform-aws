@@ -1,0 +1,5 @@
+🚀 Day 1 of My 30 Days of AWS + Terraform Journey
+
+What is Infrastrucre as code ?
+- Code that provide or provising Infrastrucre is known as Infrastrucre as code .
+
