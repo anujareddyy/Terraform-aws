@@ -11,8 +11,8 @@ provider "aws" {
   # Configuration options
 }
 
-resource "aws_s3_bucket" "example" {
-  bucket = "my-terraform-bucket-anuja"
+resource "aws_s3_bucket" "example1" {
+  bucket = "my-terraform-bucket-anuja1"
 
   tags = {
     Name        = "My bucket"
