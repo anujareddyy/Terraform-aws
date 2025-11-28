@@ -7,3 +7,13 @@ git commit -m "message" ->>
 git push  ->> pushes code to git hub
 git branch  -->> check available branch
 git branch -d name_of_branch ->> delete branch
+git init ->> to start git
+rm -rf .git  ->>>> remove git completely from local
+git status  ->> check git status
+
+sudo apt update
+sudo apt install git -y  --> install git
+git --version  --> check git version
+git config --global user.name "anujareddyy"
+git config --global user.email "anujareddy804@gmail.com"
+git config --list
