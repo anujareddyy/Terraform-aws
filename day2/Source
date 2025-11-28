@@ -1,0 +1,41 @@
+About Terraform providers.-> A Terraform provider is a plugin that lets Terraform communicate with a specific platform (like AWS, Azure, Google, etc.).
+Terraform file which is in HCL language (.tf ) file ->> terraform in our system
+Convert out .tf file to aws understanding code --> aws provider
+this converted file will call aws api -->> like calling s3 api
+even doing through manual console way creating infra will also api.
+
+          ┌────────────────────────────┐
+          │   Your .tf File (HCL)      │
+          │ Infrastructure as Code     │
+          └──────────────┬─────────────┘
+                         │
+                         ▼
+          ┌────────────────────────────┐
+          │      Terraform CLI         │
+          │  (terraform init/plan/apply) │
+          └──────────────┬─────────────┘
+                         │
+                         ▼
+          ┌────────────────────────────┐
+          │      Terraform Provider     │
+          │  (AWS / Azure / GCP Plugin) │
+          └──────────────┬─────────────┘
+                         │
+                         ▼
+         ┌──────────────────────────────┐
+         │  Provider Converts HCL Code   │
+         │   into Cloud-Understandable   │
+         │           API Calls           │
+         └──────────────┬───────────────┘
+                         │
+                         ▼
+      ┌────────────────────────────────────┐
+      │        AWS API Endpoints           │
+      │ (Example: EC2 API, S3 API, VPC API)│
+      └──────────────────┬─────────────────┘
+                         │
+                         ▼
+      ┌────────────────────────────────────┐
+      │      AWS Creates Infrastructure     │
+      │ (EC2, S3, VPC, SG, IAM, etc.)       │
+      └────────────────────────────────────┘
