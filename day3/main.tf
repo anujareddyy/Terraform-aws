@@ -15,7 +15,7 @@ resource "aws_s3_bucket" "example1" {
   bucket = "my-terraform-bucket-anuja1"
 
   tags = {
-    Name        = "My bucket"
+    Name        = "My bucket1"
     Environment = "Dev"
   }
 }
