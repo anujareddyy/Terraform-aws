@@ -17,3 +17,8 @@ git --version  --> check git version
 git config --global user.name "anujareddyy"
 git config --global user.email "anujareddy804@gmail.com"
 git config --list
+
+
+terraform commands
+alias tf='terraform'
+
