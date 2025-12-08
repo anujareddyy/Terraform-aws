@@ -1,0 +1,1 @@
+Metadata in terraform is provided by terraform itself not by aws provider to make coding easy 
